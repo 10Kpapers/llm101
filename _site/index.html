@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HXYQF1QGDW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HXYQF1QGDW');
+  </script>
+  
+
+
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>LLM 101: 一起入门大语言模型 / Winter 2024 - 机器爱学习</title>
+  <meta name="description" content=" - LLM 101: 一起入门大语言模型 / Winter 2024">
+  
+  <link rel="stylesheet" href="/llm101/_css/main.css">
+  <link rel="canonical" href="http://localhost:4000/llm101/">
+  <link rel="alternate" type="application/rss+xml" title="LLM 101: 一起入门大语言模型 / Winter 2024 - 机器爱学习" href="http://localhost:4000/llm101/feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+
+
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper" style="z-index: 100;">
+      <table><tr>
+          <td><img width="75" src="/llm101/_images/logo.png" valign="middle"></td>
+          <td style="padding-left:10px;"><a class="schoolname" style="font-size: 15px;" class="site-title" href="">机器爱学习</a>
+          <br/>
+          <span style="margin-top: -2px;margin-bottom: -10px;" class="site-title"><a href="/llm101/" title="LLM 101: 一起入门大语言模型 / Winter 2024 - 机器爱学习"><b>LLM 101: 一起入门大语言模型</a></b></span>
+          <br/>
+          <span class="coursesemeter" style="font-size: 12px;font-weight: bold;margin-top: 10px;display: block;">Winter 2024</span>
+          </td>
+        </tr></table>
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>  
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+    
+    <li>
+        <a class="page-link" href="/llm101/">
+            <i class="fa fa-home fa-lg"></i> Home
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/llm101/schedule/">
+            <i class="fas fa-calendar-alt"></i> Schedule
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/llm101/lectures/">
+            <i class="fas fa-book-reader"></i> Lectures
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/llm101/assignments/">
+            <i class="fas fa-user-graduate"></i> Assignments
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/llm101/project/">
+            <i class="fas fa-user-graduate"></i> Project
+        </a>
+    </li>
+    
+    <li>
+        <a class="page-link" href="/llm101/materials/">
+            <i class="fas fa-book"></i> Materials
+        </a>
+    </li>
+    
+</ul>
+
+     </div>  
+    </nav>
+
+  </div>
+
+  <div class="header-texture" style="height:100%; z-index: 0; position: absolute; top:0; right: 0; left: 0; 
+  background-image: url('/llm101/_images/pattern.png');" />
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
+
+    <h1>LLM 101: 一起入门大语言模型 <span style="font-size: 20px;color: #0006;">/ Winter 2024 </span></h1>
+
+    
+
+
+
+
+
+
+
+
+
+<div class="announcement-box" style="margin-top:30px">
+<h2>Updates</h2>
+<ul>
+    
+    <li class="no-p-margin">
+        
+        <p>Sample announcement, Please check out <a href="/">here</a>.</p>
+
+        
+    </li>
+    
+    <li class="no-p-margin">
+        
+            
+                New Assignment released: [<a href="/llm101/assignments/01_sample_assignment">Assignment #1 - Sample Assignment</a>]
+            
+        
+    </li>
+    
+    <li class="no-p-margin">
+        
+            
+                New Lecture is up: Sample Lecture
+                
+    
+    
+    [<a title="Download notes" href="
+    
+      /llm101/static_files/presentations/lec.zip 
+    ">notes</a>]
+    
+    [<a title="Download codes" href="
+    
+      /llm101/static_files/presentations/code.zip 
+    ">codes</a>]
+    
+    [<a title="Download slides" href="
+    
+      https://google.com 
+    ">slides</a>]
+    
+    
+
+            
+        
+    </li>
+    
+</ul>
+
+</div>
+    <br />
+
+    <h2>Course Description</h2>
+    <p>从理论到实践，一起入门大语言模型(LLM)</p>
+    
+    <p>Register to our <a href="https://groups.google.com/forum/#!forum/gp-id">Google groups page</a> to get course notifications via email.</p>
+
+
+    
+    <h2>Previous Offerings</h2>
+    <ul class="previous-offerings">
+    
+    <li><a href="https://previous_course_website.url/">Fall 1997</a></li>
+    
+    <li><a href="https://previous_course_website.url/">Fall 1996</a></li>
+    
+    </ul>
+    
+
+    <br>
+    <div>
+        <div style="width:35%; float: left">
+            <!-- <h2>Instructors</h2> -->
+            <!-- <div class="image--cover-container">
+                <img src="/llm101" class="image--cover">
+                <p></p>
+            </div> -->
+
+            <div class="profile-pic-gallary ">
+                <h2>Instructors</h2>
+                
+                <div class="image--cover-container">
+                    <img src="/llm101/_images/pp/dumbledore.jpg" class="image--cover">
+                    
+                    <p><a href="https://en.wikipedia.org/wiki/Albus_Dumbledore">Albus Dumbledore</a></p>
+                    
+                </div>
+                
+                <div class="image--cover-container">
+                    <img src="/llm101/_images/pp/mcgonagall.jpg" class="image--cover">
+                    
+                    <p>Minerva McGonagall</p>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div style="width:65%; float: left">
+            <div class="profile-pic-gallary ">
+                <h2>Teaching Assistants</h2>
+                
+                <div class="image--cover-container">
+                    <img src="/llm101/_images/pp/potter.jpg" class="image--cover">
+                    
+                    <p><a href="https://en.wikipedia.org/wiki/Harry_Potter_(character)">Harry Potter</a></p>
+                    
+                </div>
+                
+                <div class="image--cover-container">
+                    <img src="/llm101/_images/pp/granger.jpg" class="image--cover">
+                    
+                    <p><a href="https://en.wikipedia.org/wiki/Hermione_Granger">Hermione Granger</a></p>
+                    
+                </div>
+                
+                <div class="image--cover-container">
+                    <img src="/llm101/_images/pp/weasley.jpg" class="image--cover">
+                    
+                    <p><a href="https://en.wikipedia.org/wiki/Ron_Weasley">Ron Weasley</a></p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--     <h2 class="footer-heading">机器爱学习</h2> -->
+         <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+ 
+
+         <p class="text">
+微信公众号<br />
+一万篇论文笔记<br />
+
+      </div>
+
+      <div class="footer-col  footer-col-2">
+       <ul class="social-media-list">
+     
+
+          
+    <li>
+
+      <a href="https://github.com/MachineLovesLearning">
+        <i class="fab fa-github" style="color:gray"></i> MachineLovesLearning
+      </a>
+    </li>
+
+
+          
+  <li>
+    <a href="https://twitter.com/10Kpapers">
+      <i class="fab fa-twitter" style="color:gray"></i> 10Kpapers
+    </a>
+    
+  </li>
+  
+
+
+          
+
+          
+
+          
+  <li>
+    <a href="">
+      <i class="fas fa-globe" style="color:gray"></i> 
+    </a>
+  </li>
+
+       
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+  </body>
+
+</html>
+<!-- d.s.m.s.050600.062508.030515.080516.030818 | "Baby, I'm Yours" -->

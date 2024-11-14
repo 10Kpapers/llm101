@@ -1,0 +1,54 @@
+# Site settings
+course_name: "LLM 101: 一起入门大语言模型"
+course_description: "从理论到实践，一起入门大语言模型(LLM)"
+course_semester: "Winter 2024"
+
+baseurl: "/llm101" # the subpath of your site, e.g. /blog/
+url: "http://machineloveslearning.github.io/" # the base hostname & protocol for your site
+
+schoolname: "机器爱学习"
+
+# footer.html 中会用到 
+# schoolurl: ""
+twitter_username: 10Kpapers 
+github_username: MachineLovesLearning 
+
+address: |
+    微信公众号: 一万篇论文笔记
+    
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: 
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
