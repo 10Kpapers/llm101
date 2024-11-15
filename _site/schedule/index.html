@@ -33,7 +33,8 @@
 
   <div class="wrapper" style="z-index: 100;">
       <table><tr>
-          <td><img width="75" src="/_images/logo.png" valign="middle"></td>
+          <!-- 课程 logo -->
+          <!-- <td><img width="75" src="/_images/logo.png" valign="middle"></td> -->
           <td style="padding-left:10px;"><a class="schoolname" style="font-size: 15px;" class="site-title" href="">机器爱学习</a>
           <br/>
           <span style="margin-top: -2px;margin-bottom: -10px;" class="site-title"><a href="/" title="LLM 101: 一起入门大语言模型 / Winter 2024 - 机器爱学习"><b>LLM 101: 一起入门大语言模型</a></b></span>
@@ -70,7 +71,7 @@
     
     <li>
         <a class="page-link" href="/assignments/">
-            <i class="fas fa-user-graduate"></i> 作业
+            <i class="fas fa-user-graduate"></i> 编程作业
         </a>
     </li>
     
@@ -122,29 +123,12 @@
         <li class="table-row table-row-lecture">
             <div class="col col-1" data-label="Event">Lecture</div>
 <div class="col col-1-2" data-label="Date">
-    09/16/2018
-    <br class="date-spliter"/>Sunday
+    11/16/2024
+    <br class="date-spliter"/>Saturday
 </div>
 <div class="col col-2" data-label="Description">
-    Sample Lecture
+    什么是语言模型(任务)?
     <div class="schedule-lecture-links">
-    
-    
-    
-    [<a title="Download notes" href="
-    
-      /static_files/presentations/lec.zip 
-    ">notes</a>]
-    
-    [<a title="Download codes" href="
-    
-      /static_files/presentations/code.zip 
-    ">codes</a>]
-    
-    [<a title="Download slides" href="
-    
-      https://google.com 
-    ">slides</a>]
     
     
 
@@ -153,93 +137,330 @@
 <div class="col col-4 markdown-content" data-label="Course Material">
     <!--  -->
     
-    <p><strong>Suggested Readings:</strong></p>
-<ul>
-  <li><a href="http://example.com">Readings 1</a></li>
-  <li><a href="http://example.com">Readings 2</a></li>
+    <ul>
+  <li>关于NLP的一些基础知识：NLP简介、了解常见的NLP任务、词向量(word2vec)、预训练模型(ELMo、BERT)发展历程</li>
+  <li>回顾NLP中语言模型任务的发展历史：N-gram LM、FFN LM、RNN LM、GPT</li>
+  <li>理解向量的重要性，代码实践：
+    <ul>
+      <li>中文词向量相似度</li>
+      <li>中文句子向量相似度</li>
+      <li>基于transformers BERT fine-tuning的中文文本分类</li>
+      <li>基于中文维基百科/arXiv + 向量模型 API(比如OpenAI/智谱) + faiss + streamlit 构建小型搜索引擎</li>
+    </ul>
+  </li>
 </ul>
 
+<p><strong>Suggested Readings:</strong>
+<!-- - [Readings 1](http://example.com) -->
+<!-- - [Readings 2](http://example.com) --></p>
+
     
 </div>
         </li>
         
-        <li class="table-row table-row-assignment">
-            <div class="col col-1" style="color: #31708f ;font-weight: bold;" data-label="Event">Assignment</div>
+        <li class="table-row table-row-lecture">
+            <div class="col col-1" data-label="Event">Lecture</div>
 <div class="col col-1-2" data-label="Date">
-    09/26/2018
-    <br class="date-spliter" />Wednesday
-</div>
-<div class="col col-2" style="font-weight: bold" data-label="Description">
-    Assignment #1 - Sample Assignment released!
-</div>
-<div class="col col-4" data-label="Course Material">
-    [<a href="/assignments/01_sample_assignment">Assignment #1 - Sample Assignment</a>]
-    
-    [<a href="/static_files/assignments/asg_solutions.pdf">Solutions</a>]
-    
-</div>
-        </li>
-        
-        <li class="table-row table-row-due">
-            <div class="col col-1" style="color: #8a6d3b ;font-weight: bold;" data-label="Event">Due</div>
-<div class="col col-1-2" style="font-weight: bold" data-label="Date">
-    11/13/2018
-    23:59
-    <br class="date-spliter" />Tuesday
-</div>
-<div class="col col-2" style="font-weight: bold" data-label="Description">
-    Assignment #1 due
-</div>
-<div class="col col-4" data-label="Course Material">
-</div>
-        </li>
-        
-        <li class="table-row table-row-exam">
-            <div class="col col-1" style="color: #a94442 ;font-weight: bold;" data-label="Event">Exam</div>
-<div class="col col-1-2" style="font-weight: bold" data-label="Date">
-    12/02/2018
-    08:00
+    11/17/2024
     <br class="date-spliter"/>Sunday
 </div>
-<div class="col col-2" style="font-weight: bold" data-label="Description">
-    Midterm
-</div>
-<div class="col col-4 markdown-content" data-label="Course Material">
-    <p><strong>Topics:</strong></p>
-<ol>
-  <li>Topic 1</li>
-  <li>Topic 2</li>
-  <li>Topic 3</li>
-</ol>
+<div class="col col-2" data-label="Description">
+    Transformer模型
+    <div class="schedule-lecture-links">
+    
+    
 
+    </div>
 </div>
-        </li>
-        
-        <li class="table-row table-row-raw_event">
-            <div class="col col-1">Session</div>
-<div class="col col-1-2" data-label="Date">
-    01/26/2019
-    
-    12:30
-    
-    <br class="date-spliter" />Saturday
-</div>
-<div class="col col-2" data-label="Description">Sample Raw Event</div>
 <div class="col col-4 markdown-content" data-label="Course Material">
+    <!--  -->
+    
+    <ul>
+  <li>NLP中Encoder-Decoder框架和注意力机制(Attention)</li>
+  <li>阅读论文 Attention is All you Need 熟悉Transformer</li>
+  <li>代码实践：阅读The Annotated Transformer代码</li>
+</ul>
+
+<!-- **Suggested Readings:**
+- [Readings 1](http://example.com)
+- [Readings 2](http://example.com) -->
+
+    
 </div>
         </li>
         
-        <li class="table-row table-row-due">
-            <div class="col col-1" style="color: #8a6d3b ;font-weight: bold;" data-label="Event">Due</div>
-<div class="col col-1-2" style="font-weight: bold" data-label="Date">
-    12/29/2019
-    04:29
-    <br class="date-spliter" />Sunday
+        <li class="table-row table-row-lecture">
+            <div class="col col-1" data-label="Event">Lecture</div>
+<div class="col col-1-2" data-label="Date">
+    11/18/2024
+    <br class="date-spliter"/>Monday
 </div>
-<div class="col col-2" style="font-weight: bold" data-label="Description">
-    Custom Due/Deadline
+<div class="col col-2" data-label="Description">
+    从PLM到LLM
+    <div class="schedule-lecture-links">
+    
+    
+
+    </div>
 </div>
-<div class="col col-4" data-label="Course Material">
+<div class="col col-4 markdown-content" data-label="Course Material">
+    <!--  -->
+    
+    <ul>
+  <li>BERT</li>
+  <li>T5</li>
+  <li>GPT系列</li>
+  <li>涌现、幻觉、Scaling Laws、zero-shot、few-shot、CoT</li>
+  <li>代码实践：基于HF transformers的BERT fine-tuning、调用LLM API (OpenAI和DeepSeek两个版本)
+<!-- - Prompt Engineering放在LLM调用API的实践课程里面，提供openai api和deepseek api两个版本的colab notebook --></li>
+</ul>
+
+<!-- **Suggested Readings:** -->
+<!-- - [Readings 1](http://example.com)
+- [Readings 2](http://example.com) -->
+
+    
+</div>
+        </li>
+        
+        <li class="table-row table-row-lecture">
+            <div class="col col-1" data-label="Event">Lecture</div>
+<div class="col col-1-2" data-label="Date">
+    11/19/2024
+    <br class="date-spliter"/>Tuesday
+</div>
+<div class="col col-2" data-label="Description">
+    LLM Pretraining
+    <div class="schedule-lecture-links">
+    
+    
+
+    </div>
+</div>
+<div class="col col-4 markdown-content" data-label="Course Material">
+    <!--  -->
+    
+    <ul>
+  <li>data</li>
+  <li>Llama</li>
+  <li>Qwen</li>
+  <li>Tokenization
+    <ul>
+      <li>介绍subword算法</li>
+    </ul>
+  </li>
+  <li>Rope</li>
+  <li>alibi</li>
+  <li>预训练涉及分布式很多知识，不讲</li>
+  <li>代码实践：数据处理、阅读nanoGPT/TinyLlama并进行训练</li>
+</ul>
+
+<!-- **Suggested Readings:** -->
+<!-- - [Readings 1](http://example.com)
+- [Readings 2](http://example.com) -->
+
+    
+</div>
+        </li>
+        
+        <li class="table-row table-row-lecture">
+            <div class="col col-1" data-label="Event">Lecture</div>
+<div class="col col-1-2" data-label="Date">
+    11/20/2024
+    <br class="date-spliter"/>Wednesday
+</div>
+<div class="col col-2" data-label="Description">
+    LLM Post-training
+    <div class="schedule-lecture-links">
+    
+    
+
+    </div>
+</div>
+<div class="col col-4 markdown-content" data-label="Course Material">
+    <!--  -->
+    
+    <ul>
+  <li>instruction tuning</li>
+  <li>RLHF</li>
+  <li>DPO</li>
+  <li>代码实践：unsloth、llama-factory</li>
+</ul>
+
+<!-- **Suggested Readings:** -->
+<!-- - [Readings 1](http://example.com)
+- [Readings 2](http://example.com) -->
+
+    
+</div>
+        </li>
+        
+        <li class="table-row table-row-lecture">
+            <div class="col col-1" data-label="Event">Lecture</div>
+<div class="col col-1-2" data-label="Date">
+    11/21/2024
+    <br class="date-spliter"/>Thursday
+</div>
+<div class="col col-2" data-label="Description">
+    Efficient LLM Fine-tuning
+    <div class="schedule-lecture-links">
+    
+    
+
+    </div>
+</div>
+<div class="col col-4 markdown-content" data-label="Course Material">
+    <!--  -->
+    
+    <ul>
+  <li>Mixed Precision Training</li>
+  <li>Lora</li>
+  <li>qlora</li>
+</ul>
+
+<!-- **Suggested Readings:** -->
+<!-- - [Readings 1](http://example.com)
+- [Readings 2](http://example.com) -->
+
+    
+</div>
+        </li>
+        
+        <li class="table-row table-row-lecture">
+            <div class="col col-1" data-label="Event">Lecture</div>
+<div class="col col-1-2" data-label="Date">
+    11/22/2024
+    <br class="date-spliter"/>Friday
+</div>
+<div class="col col-2" data-label="Description">
+    MoE和Mamba
+    <div class="schedule-lecture-links">
+    
+    
+
+    </div>
+</div>
+<div class="col col-4 markdown-content" data-label="Course Material">
+    <!--  -->
+    
+    <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](http://example.com)
+- [Readings 2](http://example.com) -->
+
+    
+</div>
+        </li>
+        
+        <li class="table-row table-row-lecture">
+            <div class="col col-1" data-label="Event">Lecture</div>
+<div class="col col-1-2" data-label="Date">
+    11/23/2024
+    <br class="date-spliter"/>Saturday
+</div>
+<div class="col col-2" data-label="Description">
+    Multimodal LLM
+    <div class="schedule-lecture-links">
+    
+    
+
+    </div>
+</div>
+<div class="col col-4 markdown-content" data-label="Course Material">
+    <!--  -->
+    
+    <ul>
+  <li>原生多模态模型</li>
+  <li>扩展现有LLM模型</li>
+  <li>LLaVA</li>
+  <li>GraphGPT</li>
+</ul>
+
+<!-- **Suggested Readings:** -->
+<!-- - [Readings 1](http://example.com)
+- [Readings 2](http://example.com) -->
+
+    
+</div>
+        </li>
+        
+        <li class="table-row table-row-lecture">
+            <div class="col col-1" data-label="Event">Lecture</div>
+<div class="col col-1-2" data-label="Date">
+    11/24/2024
+    <br class="date-spliter"/>Sunday
+</div>
+<div class="col col-2" data-label="Description">
+    LLM reasoning
+    <div class="schedule-lecture-links">
+    
+    
+
+    </div>
+</div>
+<div class="col col-4 markdown-content" data-label="Course Material">
+    <!--  -->
+    
+    <ul>
+  <li>Inference Scaling Laws</li>
+  <li>verifier</li>
+  <li>ORM/PRM/MCTS/DPO/RL</li>
+</ul>
+
+<!-- **Suggested Readings:** -->
+<!-- - [Readings 1](http://example.com)
+- [Readings 2](http://example.com) -->
+
+    
+</div>
+        </li>
+        
+        <li class="table-row table-row-lecture">
+            <div class="col col-1" data-label="Event">Lecture</div>
+<div class="col col-1-2" data-label="Date">
+    11/25/2024
+    <br class="date-spliter"/>Monday
+</div>
+<div class="col col-2" data-label="Description">
+    RAG
+    <div class="schedule-lecture-links">
+    
+    
+
+    </div>
+</div>
+<div class="col col-4 markdown-content" data-label="Course Material">
+    <!--  -->
+    
+    <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](http://example.com)
+- [Readings 2](http://example.com) -->
+
+    
+</div>
+        </li>
+        
+        <li class="table-row table-row-lecture">
+            <div class="col col-1" data-label="Event">Lecture</div>
+<div class="col col-1-2" data-label="Date">
+    11/26/2024
+    <br class="date-spliter"/>Tuesday
+</div>
+<div class="col col-2" data-label="Description">
+    LLM Agents
+    <div class="schedule-lecture-links">
+    
+    
+
+    </div>
+</div>
+<div class="col col-4 markdown-content" data-label="Course Material">
+    <!--  -->
+    
+    <!-- **Suggested Readings:** -->
+<!-- - [Readings 1](http://example.com)
+- [Readings 2](http://example.com) -->
+
+    
 </div>
         </li>
         
@@ -317,4 +538,3 @@
   </body>
 
 </html>
-<!-- d.s.m.s.050600.062508.030515.080516.030818 | "Baby, I'm Yours" -->

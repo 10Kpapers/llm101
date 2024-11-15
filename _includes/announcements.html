@@ -13,10 +13,20 @@
 
 {% if all_events_sorted.size > 0 %}
 <div class="announcement-box" style="margin-top:30px">
-<h2>Updates</h2>
+<h2>课程公告</h2>
+<!-- 第一章内容ppt正在制作中，课程大纲待完善 -->
+<ul style="list-style-type: disc;">  <!-- 添加这个样式 -->
+    <li>第一章ppt正在制作中，完成后会录制视频</li>
+    <li>目前的课程大纲很多细节待补充，会随着课程进行逐步完善</li>
+    {% for n in all_events_sorted limit:7 %}
+    <!-- ... existing code ... -->
+    {% endfor %}
+</ul>
+
 <ul>
     {% for n in all_events_sorted limit:7 %}
-    <li class="no-p-margin">
+    <!-- 添加课程公告，比如上传视频/课件 -->
+    <!-- <li class="no-p-margin">
         {% if n.type %}
             {% if n.type == 'lecture' %}
                 New Lecture is up: {{ n.title }}
@@ -29,7 +39,7 @@
         {% else %}
         {{ n.content }}
         {% endif %}
-    </li>
+    </li> -->
     {% endfor %}
 </ul>
 {% endif %}
