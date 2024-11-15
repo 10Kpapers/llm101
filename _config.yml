@@ -3,8 +3,11 @@ course_name: "LLM 101: 一起入门大语言模型"
 course_description: "从理论到实践，一起入门大语言模型(LLM)"
 course_semester: "Winter 2024"
 
-baseurl: "/llm101" # the subpath of your site, e.g. /blog/
-url: "http://machineloveslearning.github.io/" # the base hostname & protocol for your site
+# baseurl: "/llm101" # the subpath of your site, e.g. /blog/
+# url: "http://machineloveslearning.github.io/" # the base hostname & protocol for your site
+
+url: "https://llm101.top"
+baseurl: ""
 
 schoolname: "机器爱学习"
 
