@@ -1,6 +1,6 @@
 # Site settings
 course_name: "LLM 101: 一起入门大语言模型"
-course_description: "这是一门关于LLM的入门课程，从理论到实践，"
+# course_description: "这是一门关于LLM的入门课程，从理论到实践，"
 course_semester: "Winter 2024"
 
 # baseurl: "/llm101" # the subpath of your site, e.g. /blog/
