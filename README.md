@@ -4,6 +4,7 @@ This course website is heavily based on [kazemnejad/jekyll-course-website-templa
 
 
 # How to customize
+
 ## Changing the names
 - Open `_config.yml`
 - Update `course_name`, `course_semester`, and `course_description` (this will appear in the home page).

@@ -6,6 +6,7 @@ course_semester: "Winter 2024"
 # baseurl: "/llm101" # the subpath of your site, e.g. /blog/
 # url: "http://machineloveslearning.github.io/" # the base hostname & protocol for your site
 
+# config domain 
 url: "https://llm101.top"
 baseurl: ""
 
@@ -13,8 +14,10 @@ schoolname: "机器爱学习"
 
 # footer.html 中会用到 
 # schoolurl: ""
-twitter_username: 10Kpapers 
+# twitter_username: 10Kpapers 
 github_username: MachineLovesLearning 
+zhihu_username: 机器爱学习
+bilibili_username: 3546568818952405
 
 address: |
     微信公众号: 一万篇论文笔记
