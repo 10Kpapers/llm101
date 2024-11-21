@@ -4,9 +4,10 @@ date: 2024-11-16T8:00:00+4:30
 title: 什么是语言模型(任务)?
 tldr: "关于NLP的一些基础知识：NLP简介、了解常见的NLP任务、词向量(word2vec)、预训练模型(ELMo、BERT)发展历程"
 thumbnail: /static_files/presentations/lec.jpg
-# links: 
-#     - url: /static_files/presentations/lec.zip
-#       name: notes
+# 添加slides附件
+links: 
+     - url: /static_files/slides/第一章第一节NLP基础.pdf
+       name: "第一节slides"
 #     - url: /static_files/presentations/code.zip
 #       name: codes
 #     - url: https://google.com
@@ -15,12 +16,16 @@ thumbnail: /static_files/presentations/lec.jpg
 
 * 关于NLP的一些基础知识：NLP简介、了解常见的NLP任务、词向量(word2vec)、预训练模型(ELMo、BERT)发展历程
 * 回顾NLP中语言模型任务的发展历史：N-gram LM、FFN LM、RNN LM、GPT
-* 理解向量的重要性，代码实践：
-  - 中文词向量相似度
-  - 中文句子向量相似度
+* 理解向量(Embedding)的重要性，代码实践：
+  - 词向量可视化
+  - 句子向量(调用SiliconFlow API)相似度
   - 基于transformers BERT fine-tuning的中文文本分类
-  - 基于中文维基百科/arXiv + 向量模型 API(比如OpenAI/智谱) + faiss + streamlit 构建小型搜索引擎
+  - 基于arXiv + SiliconFlow向量模型 API + faiss + streamlit 构建论文搜索引擎demo
+* 一点数学计算：
+  - 斯坦福CS224N 作业2中[Understanding word2vec](https://web.stanford.edu/class/cs224n/assignments/a2.pdf)
+  - 普林斯顿 COS 484 作业1中[LM和ppl理解](https://princeton-nlp.github.io/cos484/assignments/a1.pdf)
 
-**Suggested Readings:**
+
+<!-- **Suggested Readings:** -->
 <!-- - [Readings 1](http://example.com) -->
 <!-- - [Readings 2](http://example.com) -->
