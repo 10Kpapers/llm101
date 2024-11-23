@@ -21,9 +21,9 @@ links:
 * 回顾NLP中语言模型任务的发展历史：N-gram LM、FFN LM、RNN LM、GPT
 * 理解向量(Embedding)的重要性，代码实践：
   - 词向量可视化
-  - 句子向量(调用SiliconFlow API)相似度
+  - 调用SiliconFlow Embedding API 计算句子向量的余弦相似度
   - 基于transformers BERT fine-tuning的中文文本分类
-  - 基于arXiv + SiliconFlow向量模型 API + faiss + streamlit 构建论文搜索引擎demo
+  - 基于arXiv论文数据 + SiliconFlow API + faiss + streamlit 构建论文搜索引擎demo
 * 一点数学计算：
   - 斯坦福CS224N 作业2中[Understanding word2vec](https://web.stanford.edu/class/cs224n/assignments/a2.pdf)
   - 普林斯顿 COS 484 作业1中[LM和ppl理解](https://princeton-nlp.github.io/cos484/assignments/a1.pdf)

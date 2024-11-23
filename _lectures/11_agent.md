@@ -12,6 +12,7 @@ thumbnail: /static_files/presentations/lec.jpg
 #     - url: https://google.com
 #       name: slides
 ---
+参考 Shunyu Yao的博士论文、CS294/194-196 Large Language Model Agents和相关的Tutorials
 
 <!-- **Suggested Readings:** -->
 <!-- - [Readings 1](http://example.com)

@@ -14,7 +14,13 @@ thumbnail: /static_files/presentations/lec.jpg
 ---
 * NLP中Encoder-Decoder框架和注意力机制(Attention)
 * 阅读论文 Attention is All you Need 熟悉Transformer
-* 代码实践：阅读The Annotated Transformer代码
+* 代码实践：
+  - 阅读The Annotated Transformer代码
+  - CMU机器翻译课程 [作业1](https://www.phontron.com/class/mtandseq2seq2019/assignments.html)
+  - CS224N作业3 [Neural Machine Translation with RNN](https://web.stanford.edu/class/cs224n/assignments/a3_spr24_student_handout.pdf)
+  - CS224N 作业4: [Self-Attention, Transformers, and Pretraining](https://web.stanford.edu/class/cs224n/assignments/a4_spr24_student_handout.pdf)
+  - CS336 作业1 [Building a Transformer LM](https://github.com/stanford-cs336/spring2024-assignment1-basics)
+
 
 <!-- **Suggested Readings:**
 - [Readings 1](http://example.com)

@@ -13,6 +13,11 @@ thumbnail: /static_files/presentations/lec.jpg
 #       name: slides
 ---
 
+* RAG, GraphRAG
+
+* 代码实践：
+  - LightRAG
+
 <!-- **Suggested Readings:** -->
 <!-- - [Readings 1](http://example.com)
 - [Readings 2](http://example.com) -->
