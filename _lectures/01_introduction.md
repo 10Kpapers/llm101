@@ -6,11 +6,15 @@ tldr: "关于NLP的一些基础知识：NLP简介、了解常见的NLP任务、�
 thumbnail: /static_files/presentations/lec.jpg
 # 添加slides附件
 links: 
-     - url: /static_files/slides/第一章第一节NLP基础.pdf
-       name: "第一节slides"
+     - url: /static_files/slides/第一章.pdf
+       name: "第一章slides"
 
      - url: https://www.bilibili.com/video/BV1WmBvYGEYU/?spm_id_from=333.999.0.0
-       name: "第一节视频[bilibili]"
+       name: "第一节视频(bilibili)"
+     - url: https://www.bilibili.com/video/BV1KLzPYoEbh/?spm_id_from=333.999.0.0
+       name: "第二节视频(bilibili)"
+     - url: https://www.bilibili.com/video/BV127zKYAExE/?spm_id_from=333.999.0.0
+       name: "第三节视频(bilibili)"
 #     - url: /static_files/presentations/code.zip
 #       name: codes
 #     - url: https://google.com
@@ -19,7 +23,7 @@ links:
 
 * 关于NLP的一些基础知识：NLP简介、了解常见的NLP任务、词向量(word2vec)、预训练模型(ELMo、BERT)发展历程
 * 回顾NLP中语言模型任务的发展历史：N-gram LM、FFN LM、RNN LM、GPT
-* 理解向量(Embedding)的重要性，代码实践：
+* 理解向量(Embedding)的重要性，[代码链接](https://github.com/MachineLovesLearning/llm101_codes)：
   - 词向量可视化
   - 调用SiliconFlow Embedding API 计算句子向量的余弦相似度
   - 基于transformers BERT fine-tuning的中文文本分类

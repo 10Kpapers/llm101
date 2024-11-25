@@ -11,9 +11,9 @@ items:
 #   name: 课件
 #   icon_class: fas fa-book-reader
 
-- url: /assignments/
-  name: 编程作业
-  icon_class: fas fa-user-graduate
+# - url: /assignments/
+#   name: 编程作业
+#   icon_class: fas fa-user-graduate
 
 # - url: /project/
 #   name: Project
