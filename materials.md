@@ -31,6 +31,7 @@ style: |
 - [斯坦福 2022 CS 324 - Advances in Foundation Models](https://stanford-cs324.github.io/winter2023/)
 - [JHU CS 601.471/671 NLP: Self-supervised Models](https://self-supervised.cs.jhu.edu/sp2024/)
 - [JHU CS 601.771 Advances in Self-supervised Models](https://self-supervised.cs.jhu.edu/fa2024/)
+- [JHU EN 601.468/668 Machine Translation](http://mt-class.org/jhu/index.html)
 - [CMU 2024 LLM Sytems](https://llmsystem.github.io/llmsystem2024spring/)
 - [CMU 2022 CS 11-711 Advanced NLP](https://www.phontron.com/class/anlp2022/description.html#)
 - [CMU Advanced NLP Fall 2024](https://phontron.com/class/anlp-fall2024/)
