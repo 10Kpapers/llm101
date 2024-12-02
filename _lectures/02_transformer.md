@@ -4,6 +4,19 @@ date: 2024-11-17T8:00:00+4:30
 title: Transformer模型
 tldr: "Short text to discribe what this lecture is about."
 thumbnail: /static_files/presentations/lec.jpg
+
+# 添加slides附件
+links: 
+     - url: /static_files/slides/第二章2024.12.02.pdf
+       name: "第二章slides"
+
+     - url: https://www.bilibili.com/video/BV15S6NYjEXz/?spm_id_from=333.999.0.0
+       name: "第一节和第二节视频(bilibili)"
+    #  https://www.bilibili.com/video/BV15S6NYjEXz/?spm_id_from=333.999.list.card_archive.click&vd_source=f390fbd44eabbd79d483210d5a4d770e
+#     - url: /static_files/presentations/code.zip
+#       name: codes
+#     - url: https://google.com
+#       name: slides
 # links: 
 #     - url: /static_files/presentations/lec.zip
 #       name: notes
@@ -12,16 +25,11 @@ thumbnail: /static_files/presentations/lec.jpg
 #     - url: https://google.com
 #       name: slides
 ---
-* NLP中Encoder-Decoder框架和注意力机制(Attention)
-* 阅读论文 Attention is All you Need 熟悉Transformer
-* 代码实践：
-  - 阅读The Annotated Transformer代码
-  - CMU机器翻译课程 [作业1](https://www.phontron.com/class/mtandseq2seq2019/assignments.html)
-  - CS224N作业3 [Neural Machine Translation with RNN](https://web.stanford.edu/class/cs224n/assignments/a3_spr24_student_handout.pdf)
-  - CS224N 作业4: [Self-Attention, Transformers, and Pretraining](https://web.stanford.edu/class/cs224n/assignments/a4_spr24_student_handout.pdf)
-  - CS336 作业1 [Building a Transformer LM](https://github.com/stanford-cs336/spring2024-assignment1-basics)
-
-
-<!-- **Suggested Readings:**
-- [Readings 1](http://example.com)
-- [Readings 2](http://example.com) -->
+* 回顾机器翻译任务的发展历史：统计机器翻译(SMT)、Encoder-Decoder结构、注意力(Attention)机制、BPE算法
+* Transformer模型
+* 编程实践：
+  - RNN Encoder-Decoder with Attention
+  - [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/)
+  - 训练基于Transformer的中英翻译模型
+  - 非代码：斯坦福CS224N 作业4 [Attention和Position Embeddings分析](https://web.stanford.edu/class/cs224n/assignments/a4_spr24_student_handout.pdf)
+  
