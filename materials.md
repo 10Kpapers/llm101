@@ -50,7 +50,7 @@ style: |
 - [伯克利 2023 Natural Language Processing](https://people.ischool.berkeley.edu/~dbamman//nlp23.html)
 - [ETH Large Language Models, Spring 2024](https://rycolab.io/classes/llm-s24/)
 - [UT Austin CS388: Natural Language Processing (Spring 2024)](https://www.cs.utexas.edu/~gdurrett/courses/sp2024/cs388.shtml)
-
+- [Gatech CS 8803 - Large Language Models, Fall 2024](https://cocoxu.github.io/CS8803-LLM-fall2024/calendar/)
 - [~~CSE 256: Statistical Natural Language Processing~~](https://cseweb.ucsd.edu//~nnakashole/teaching/256_sp19.html)
 
 
