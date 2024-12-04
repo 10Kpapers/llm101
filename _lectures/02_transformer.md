@@ -7,7 +7,7 @@ thumbnail: /static_files/presentations/lec.jpg
 
 # 添加slides附件
 links: 
-     - url: /static_files/slides/第二章2024.12.03.pdf
+     - url: /static_files/slides/第二章2024.12.04.pdf
        name: "第二章slides"
 
      - url: https://www.bilibili.com/video/BV15S6NYjEXz/?spm_id_from=333.999.0.0
