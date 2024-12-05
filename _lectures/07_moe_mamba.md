@@ -12,7 +12,9 @@ thumbnail: /static_files/presentations/lec.jpg
 #     - url: https://google.com
 #       name: slides
 ---
+Hippo, S4, Mamba
 
+MoE/Mamba reasoning
 
 <!-- **Suggested Readings:** -->
 <!-- - [Readings 1](http://example.com)
