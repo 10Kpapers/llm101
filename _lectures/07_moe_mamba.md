@@ -12,7 +12,7 @@ thumbnail: /static_files/presentations/lec.jpg
 #     - url: https://google.com
 #       name: slides
 ---
-Hippo, S4, Mamba
+Hippo, S4, Mamba, RWKV
 
 MoE/Mamba reasoning
 
