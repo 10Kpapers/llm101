@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2024-11-16T8:00:00+4:30
+date: 2024-11-22T8:00:00+4:30
 title: 什么是语言模型(任务)?
 tldr: "关于NLP的一些基础知识：NLP简介、了解常见的NLP任务、词向量(word2vec)、预训练模型(ELMo、BERT)发展历程"
 thumbnail: /static_files/presentations/lec.jpg

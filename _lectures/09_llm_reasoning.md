@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2024-11-24T8:00:00+4:30
+date: 2024-12-24T8:00:00+4:30
 title: LLM reasoning
 tldr: "Short text to discribe what this lecture is about."
 thumbnail: /static_files/presentations/lec.jpg
