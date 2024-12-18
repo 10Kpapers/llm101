@@ -1,6 +1,5 @@
 # Site settings
 course_name: "LLM 101: 一起入门大语言模型"
-# course_description: "这是一门关于LLM的入门课程，从理论到实践，"
 course_semester: "Winter 2024"
 
 # baseurl: "/llm101" # the subpath of your site, e.g. /blog/
@@ -10,7 +9,7 @@ course_semester: "Winter 2024"
 url: "https://llm101.top"
 baseurl: ""
 
-schoolname: "机器爱学习"
+schoolname: "一万篇论文笔记"
 
 # footer.html 中会用到 
 # schoolurl: ""
