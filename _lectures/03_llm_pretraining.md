@@ -32,6 +32,7 @@ links:
     - 解析(Train-time Compute) Scaling Laws for LM, Empirically 
     - 计算 GPT模型参数和FLOPs
     - Kaplan Scaling Laws && Chinchilla Scaling Laws
+    - 编程实践：[Scaling Laws for MNIST](https://colab.research.google.com/drive/1uOUO-zqEpTmPJkeVfzZZzi8zCo94nGAM#scrollTo=YKILkuscd3Zu)
 - GPT-3 and Beyond
     - 涌现、幻觉、位置编码、合成数据、提示工程、SLMs ...
 <!-- - Prompt Engineering放在LLM调用API的实践课程里面，提供openai api和deepseek api两个版本的colab notebook -->
