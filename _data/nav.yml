@@ -3,23 +3,23 @@ items:
   name: 首页
   icon_class: fa fa-home fa-lg
 
-- url: /schedule/
+- url: /schedule
   name: 课程大纲
   icon_class: fas fa-calendar-alt
 
-# - url: /lectures/
+# - url: /lectures
 #   name: 课件
 #   icon_class: fas fa-book-reader
 
-# - url: /assignments/
+# - url: /assignments
 #   name: 编程作业
 #   icon_class: fas fa-user-graduate
 
-# - url: /project/
+# - url: /project
 #   name: Project
 #   icon_class: fas fa-user-graduate
 
-- url: /materials/
+- url: /materials
   name: 其它资料
   icon_class: fas fa-book
 
