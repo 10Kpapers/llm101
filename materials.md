@@ -16,6 +16,7 @@ style: |
 ## 参考课程
 
 
+
 - [karpathy/LLM101n](https://github.com/karpathy/LLM101n)
 - https://github.com/mlabonne/llm-course<!-- - 有一些jupyter notebook可以作为代码实践课的资料 -->
 - https://huggingface.co/learn/nlp-course/chapter1/1 <!-- - HF有好几门课程，NLP课程主要是介绍如何使用HF自家的开源框架，包括transformers、datasets、tokenizers、accelerate，几乎没有理论部分，侧重代码实践 -->
