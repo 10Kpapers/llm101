@@ -23,6 +23,6 @@ items:
   name: 其它资料
   icon_class: fas fa-book
 
-- url: /llmcheatsheet/
+- url: /llmcheatsheet
   name: LLM Cheatsheet
   icon_class: fas fa-table
