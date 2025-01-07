@@ -209,7 +209,7 @@
     <ul class="model-params-list">
         <li class="model-params-item">M: 模型参数量</li>
         <li class="model-params-item">T: 模型预训练tokens</li>
-        <li class="model-params-item">zh: 模型是否支持中文</li>
+        <li class="model-params-item">zh: 模型是否很好的支持中文</li>
         <li class="model-params-item">code: 模型是否支持code</li>
         <li class="model-params-item">S: 模型的context sequence长度, 1K=1024</li>
         <li class="model-params-item">L: 模型non-embedding的层数</li>
@@ -250,12 +250,239 @@
     </tr>
   </thead>
   <tbody>
+
+    <tr >
+      <td >GPT-1</td> 
+      <td><a href="https://huggingface.co/openai-community/openai-gpt/blob/main/config.json">117M</a></td>
+      <td>800M(w)</td>
+      <td>False</td>
+      <td>False</td>
+      <td>512</td>
+      <td>12</td>
+      <td>768</td>
+      <td>3072</td>
+      <td>12</td>
+      <td>12</td>
+      <td>40478</td>
+      <td>True</td>
+      <td>Dense</td>
+      <td>2018-06-11</td>
+    </tr>
+
+    <!-- <GPT-2> -->
+    <tr class="model-group-row">
+      <td rowspan="4">GPT-2</td> 
+      <td><a href="https://huggingface.co/openai-community/gpt2/blob/main/config.json">124M</a></td>
+      <td>10B</td>
+      <td>False</td>
+      <td>False</td>
+      <td>1K</td>
+      <td>12</td>
+      <td>768</td>
+      <td>3072</td>
+      <td>12</td>
+      <td>12</td>
+      <td>50257</td>
+      <td>True</td>
+      <td>Dense</td>
+      <td>2019-02-14</td>
+    </tr>
+
+    <tr>
+      <td><a href="https://huggingface.co/openai-community/gpt2-medium/blob/main/config.json">355M</a></td>
+      <td>10B</td>
+      <td>False</td>
+      <td>False</td>
+      <td>1K</td>
+      <td>24</td>
+      <td>1024</td>
+      <td>4096</td>
+      <td>16</td>
+      <td>16</td>
+      <td>50257</td>
+      <td>True</td>
+      <td>Dense</td>
+      <td>2019-02-14</td>
+    </tr>
+   
+    <tr>
+      <td><a href="https://huggingface.co/openai-community/gpt2-large/blob/main/config.json">774M</a></td>
+      <td>10B</td>
+       <td>False</td>
+      <td>False</td>
+      <td>1K</td>
+      <td>36</td>
+      <td>1280</td>
+      <td>5120</td>
+      <td>20</td>
+      <td>20</td>
+      <td>50257</td>
+      <td>True</td>
+      <td>Dense</td>
+      <td>2019-02-14</td>
+    </tr>
+
+    <tr>
+      <td><a href="https://huggingface.co/openai-community/gpt2-xl/blob/main/config.json">1.5B</a></td>
+      <td>10B</td>
+      <td>False</td>
+      <td>False</td>
+      <td>1K</td>
+      <td>48</td>
+      <td>1600</td>
+      <td>6400</td>
+      <td>25</td>
+      <td>25</td>
+      <td>50257</td>
+      <td>True</td>
+      <td>Dense</td>
+      <td>2019-02-14</td>
+    </tr>
+    
+    <!-- <GPT-3>                                    -->
+
+    <tr class="model-group-row">
+      <td rowspan="8">GPT-3</td> 
+      <td>125M</td>
+      <td>300B</td>
+      <td>False</td>
+      <td>False</td>
+      <td>2K</td>
+      <td>12</td>
+      <td>768</td>
+      <td>3072</td>
+      <td>12</td>
+      <td>12</td>
+      <td>50257</td>
+      <td>True</td>
+      <td>Dense</td>
+      <td>2020-05-28</td>
+    </tr>
+
+    <tr>
+    <td>350M</td>
+      <td>300B</td>
+      <td>False</td>
+      <td>False</td>
+      <td>2K</td>
+      <td>24</td>
+      <td>1024</td>
+      <td>4096</td>
+      <td>16</td>
+      <td>16</td>
+      <td>50257</td>
+      <td>?True</td>
+      <td>Dense</td>
+      <td>2020-05-28</td>
+    </tr>
+    <tr>
+    <td>760M</td>
+      <td>300B</td>
+      <td>False</td>
+      <td>False</td>
+      <td>2K</td>
+      <td>24</td>
+      <td>1536</td>
+      <td>6144</td>
+      <td>16</td>
+      <td>16</td>
+      <td>50257</td>
+      <td>?True</td>
+      <td>Dense</td>
+      <td>2020-05-28</td>
+    </tr>
+    <tr>
+    <td>1.3B</td>
+      <td>300B</td>
+      <td>False</td>
+      <td>False</td>
+      <td>2K</td>
+      <td>24</td>
+      <td>2048</td>
+      <td>8192</td>
+      <td>24</td>
+      <td>24</td>
+      <td>50257</td>
+      <td>?True</td>
+      <td>Dense</td>
+      <td>2020-05-28</td>
+    </tr>
+    <tr>
+    <td>2.7B</td>
+      <td>300B</td>
+      <td>False</td>
+      <td>False</td>
+      <td>2K</td>
+      <td>32</td>
+      <td>2560</td>
+      <td>10240</td>
+      <td>32</td>
+      <td>32</td>
+      <td>50257</td>
+      <td>?True</td>
+      <td>Dense</td>
+      <td>2020-05-28</td>
+    </tr>
+    <tr>
+    <td>6.7B</td>
+      <td>300B</td>
+      <td>False</td>
+      <td>False</td>
+      <td>2K</td>
+      <td>32</td>
+      <td>4096</td>
+      <td>16384</td>
+      <td>32</td>
+      <td>32</td>
+      <td>50257</td>
+      <td>?True</td>
+      <td>Dense</td>
+      <td>2020-05-28</td>
+    </tr>
+    <tr>
+    <td>13B</td>
+      <td>300B</td>
+      <td>False</td>
+      <td>False</td>
+      <td>2K</td>
+      <td>40</td>
+      <td>5120</td>
+      <td>20480</td>
+      <td>40</td>
+      <td>40</td>
+      <td>50257</td>
+      <td>?True</td>
+      <td>Dense</td>
+      <td>2020-05-28</td>
+    </tr>
+    <tr>
+    <td>175B</td>
+      <td>300B</td>
+      <td>False</td>
+      <td>False</td>
+      <td>2K</td>
+      <td>96</td>
+      <td>12288</td>
+      <td>49152</td>
+      <td>96</td>
+      <td>96</td>
+      <td>50257</td>
+      <td>?True</td>
+      <td>Dense</td>
+      <td>2020-05-28</td>
+    </tr>
+
+
+
+
+    <!-- <Llama 1> -->
+
     <tr class="model-group-row">
       <td rowspan="4">Llama 1</td> 
       <td><a href="https://huggingface.co/huggyllama/llama-7b/blob/main/config.json">7B</a></td>
       <td>1T</td>
+       <td>False</td>
       <td>False</td>
-      <td>True</td>
       <td>2K</td>
       <td>32</td>
       <td>4096</td>
@@ -418,7 +645,7 @@
     </tr>
 
     <tr>
-      <td rowspan="2">Llama 3.1</td> 
+      <td rowspan="3">Llama 3.1</td> 
       <td><a href="https://huggingface.co/meta-llama/Llama-3.1-8B/blob/main/config.json">8B</a></td>
       <td>15T</td>
       <td>False</td>
@@ -445,6 +672,24 @@
       <td>8192</td>
       <td>28672</td>
       <td>64</td>
+      <td>8</td>
+      <td>128256</td>
+      <td>False</td>
+      <td>Dense</td>
+      <td>2024-07-23</td>
+      <!-- <td>Meta</td> -->
+    </tr>
+
+    <tr>
+      <td><a href="https://huggingface.co/meta-llama/Llama-3.1-405B/blob/main/config.json">405B</a></td>
+      <td>15T</td>
+      <td>False</td>
+      <td>True</td>
+      <td>128K</td>
+      <td>126</td>
+      <td>16384</td>
+      <td>53248</td>
+      <td>128</td>
       <td>8</td>
       <td>128256</td>
       <td>False</td>
@@ -962,10 +1207,62 @@
       <td>False</td>
       <td>Dense</td>
       <td>2024-09-15</td>
-      <!-- <td>Alibaba</td> -->
     </tr>
     
 
+    <tr>
+      <td rowspan="2">DeepSeek LLM</td> 
+      <td><a href="https://huggingface.co/deepseek-ai/deepseek-llm-7b-base/blob/main/config.json">7B</a></td>
+      <td>2T</td>
+      <td>True</td>
+      <td>True</td>
+      <td>4K</td>
+      <td>30</td>
+      <td>4096</td>
+      <td>11008</td>
+      <td>32</td>
+      <td>32</td>
+      <td>102400</td>
+      <td>False</td>
+      <td>Dense</td>
+      <td>2023-11-29</td>
+    </tr>
+    <tr>
+      <td><a href="https://huggingface.co/deepseek-ai/deepseek-llm-67b-base/blob/main/config.json">67B</a></td>
+      <td>2T</td>
+      <td>True</td>
+      <td>True</td>
+      <td>4K</td>
+      <td>95</td>
+      <td>8192</td>
+      <td>22016</td>
+      <td>64</td>
+      <td>8</td>
+      <td>102400</td>
+      <td>False</td>
+      <td>Dense</td>
+      <td>2023-11-29</td>
+    </tr>
+
+    <tr>
+      <td >DeepSeekMoE</td> 
+      <td><a href="https://huggingface.co/deepseek-ai/deepseek-moe-16b-base/blob/main/config.json">16B</a></td>
+      <td>2T</td>
+      <td>True</td>
+      <td>True</td>
+      <td>4K</td>
+      <td>28</td>
+      <td>2048</td>
+      <td>10944</td>
+      <td>16</td>
+      <td>16</td>
+      <td>102400</td>
+      <td>False</td>
+      <td>MoE</td>
+      <td>2024-01-08</td>
+    </tr>
+
+    
 
   </tbody>
 </table>
