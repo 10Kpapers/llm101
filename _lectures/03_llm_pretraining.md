@@ -7,17 +7,23 @@ thumbnail: /static_files/presentations/lec.jpg
 
 # 添加slides附件
 links: 
-     - url: /static_files/slides/第三章第一节GPT-1,GPT-2.2025.01.16.pdf
-       name: "第三章第一节slides"
+     - url: /static_files/slides/3.1-GPT-1,GPT-2.2025.01.16.pdf
+       name: "第一节slides"
 
      - url: https://www.bilibili.com/video/BV1CPk5YRE35/?spm_id_from=333.1387.list.card_archive.click&vd_source=f390fbd44eabbd79d483210d5a4d770e
-       name: "第三章第一节视频(bilibili)"
-    
+       name: "第一节视频(bilibili)"
+
+     - url: /static_files/slides/3.2-Scaling-Laws-2025.02.02.pdf
+       name: "第二节slides"
+
      - url: https://www.bilibili.com/video/BV1LACYYAEPM/?spm_id_from=333.1387.list.card_archive.click&vd_source=f390fbd44eabbd79d483210d5a4d770e
-       name: "第三章第二节视频(bilibili)"
+       name: "第二节视频(bilibili)"
     
+     - url: /static_files/slides/3.3-Distributed-Training-2025.02.02.pdf
+       name: "第三节slides"
+
      - url: https://www.bilibili.com/video/BV1gfwreaEhH?spm_id_from=333.788.videopod.sections&vd_source=f390fbd44eabbd79d483210d5a4d770e
-       name: "第三章第三节视频(bilibili)"
+       name: "第三节视频(bilibili)"
 
        
      
@@ -49,7 +55,7 @@ links:
     - 序列并行(Sequence Parallelism, SP)
     - 上下文并行(Context Parallelism, CP) 
     - 专家并行(Expert Parallelism, EP)
-    - 代码之picotron
+    - 分布式代码之[picotron](https://github.com/huggingface/picotron)
 
 - GPT-3 and Beyond
     - 涌现、幻觉、位置编码、合成数据、提示工程、SLMs ...

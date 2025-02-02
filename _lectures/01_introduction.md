@@ -7,9 +7,8 @@ thumbnail: /static_files/presentations/lec.jpg
 
 # 添加slides附件
 links: 
-     - url: /static_files/slides/第一章2024.12.04.pdf
+     - url: /static_files/slides/1-NLP-basis-2024.12.04.pdf
        name: "第一章slides"
-
      - url: https://www.bilibili.com/video/BV1WmBvYGEYU/?spm_id_from=333.999.0.0
        name: "第一节视频(bilibili)"
      - url: https://www.bilibili.com/video/BV1KLzPYoEbh/?spm_id_from=333.999.0.0
